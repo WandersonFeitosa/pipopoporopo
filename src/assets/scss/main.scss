@@ -43,11 +43,14 @@ body {
   font-size: 1.5rem;
   transition: 1s;
   cursor: pointer;
+
+  text-decoration: none;
+  color: #000;
 }
 .butao:hover {
   background: #fff;
   color: #ff0000;
-  padding: 3rem;
+  font-size: 3rem;
 }
 .d-none {
   display: none;

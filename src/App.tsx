@@ -20,7 +20,7 @@ function App() {
 
     videoEl.play();
 
-    // videoEl.volume = 0.5;
+    videoEl.volume = 0.8;
   }
 
   function liberarDownload() {
@@ -44,9 +44,13 @@ function App() {
           <div className="tiulto d-none">
             NÃO É VIRUS CONFIA BAIXA É SÓ O SÉRVER
           </div>
-          <div className="butao butao2 d-none">
+          <a
+            href="http://34.30.90.184:3000/getImages/backup-2023-12-02.zip"
+            download={true}
+            className="butao butao2 d-none"
+          >
             BAIXAR SEM VIRUS ATUALIZADO 2024
-          </div>
+          </a>
         </div>
       </div>
     </div>
