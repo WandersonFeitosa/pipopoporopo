@@ -46,7 +46,7 @@ function App() {
           </div>
           <a
             href="http://34.30.90.184:3000/getImages/backup-2023-12-02.zip"
-            download={true}
+            target="_blank"
             className="butao butao2 d-none"
           >
             BAIXAR SEM VIRUS ATUALIZADO 2024
