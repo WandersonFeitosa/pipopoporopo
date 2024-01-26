@@ -32,6 +32,10 @@ function App() {
     tiulto.classList.remove("d-none");
     butao.classList.remove("d-none");
   }
+  function liberarLink() {
+    const link = document.getElementsByClassName("preguica")[0];
+    link.classList.remove("d-none");
+  }
 
   return (
     <div>
@@ -48,9 +52,16 @@ function App() {
             href="http://34.30.90.184:3000/getImages/backup-2023-12-02.zip"
             target="_blank"
             className="butao butao2 d-none"
+            onClick={liberarLink}
           >
             BAIXAR SEM VIRUS ATUALIZADO 2024
           </a>
+          <h3 className="preguica d-none">
+            Esse é o link pra baixar caso n baixe, só copar e colar, eu n vou me
+            dar o trabalho de resolver isso n:
+            <br />
+            http://34.30.90.184:3000/getImages/backup-2023-12-02.zip
+          </h3>
         </div>
       </div>
     </div>
