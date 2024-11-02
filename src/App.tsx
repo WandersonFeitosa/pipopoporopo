@@ -49,7 +49,7 @@ function App() {
             NÃO É VIRUS CONFIA BAIXA É SÓ O SÉRVER
           </div>
           <a
-            href="http://34.30.90.184:3000/getImages/backup-2023-12-02.zip"
+            href="https://storage.googleapis.com/circular-curve-436401-t4-tcsmp/backup-2024-11-02.zip"
             target="_blank"
             className="butao butao2 d-none"
             onClick={liberarLink}
@@ -60,7 +60,7 @@ function App() {
             Esse é o link pra baixar caso n baixe, só copar e colar, eu n vou me
             dar o trabalho de resolver isso n:
             <br />
-            http://34.30.90.184:3000/getImages/backup-2023-12-02.zip
+            https://storage.googleapis.com/circular-curve-436401-t4-tcsmp/backup-2024-11-02.zip
           </h3>
         </div>
       </div>
